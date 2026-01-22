@@ -11,12 +11,14 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
 version: 2
 updates:
   - package-ecosystem: bazel
     directory: /
     schedule:
-      interval: weekly
+      interval: daily
+
   - package-ecosystem: cargo
     directories:
       - /
@@ -28,8 +30,9 @@ updates:
       - examples/http_config
       - examples/http_headers
     schedule:
-      interval: weekly
+      interval: daily
+
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: weekly
+      interval: daily
