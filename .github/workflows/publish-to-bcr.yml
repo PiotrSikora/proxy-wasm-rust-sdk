@@ -36,7 +36,7 @@ jobs:
     with:
       attest: false
       open_pull_request: false
-      registry_fork: PiotrSikora
+      registry_fork: PiotrSikora/bazel-central-registry
       tag_name: ${{ inputs.tag_name || github.ref_name }}
     permissions:
       attestations: write
