@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/proxy-wasm/proxy-wasm-rust-sdk",
+  "homepage": "https://github.com/PiotrSikora/proxy-wasm-rust-sdk",
   "maintainers": [
     {
       "github": "PiotrSikora",
@@ -8,7 +8,7 @@
     }
   ],
   "repository": [
-    "github:proxy-wasm/proxy-wasm-rust-sdk"
+    "github:PiotrSikora/proxy-wasm-rust-sdk"
   ],
   "versions": [],
   "yanked_versions": {}
